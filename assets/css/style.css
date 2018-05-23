@@ -1,0 +1,100 @@
+body{
+    background-image: url("../images/stripes-light.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+/* Header does not know my name and links are there if they are floating. */
+
+.name {
+  color: #fff;
+  background: #4aaaa5;
+  width: 20%;
+  height: 100px;
+  text-align: center;
+}
+
+
+header {
+  font-family: serif;
+  height: 100px;
+  margin-bottom: 20px;
+  background: #fff;
+  max-width: 100%;
+  border-bottom: 1px solid #dddddd;
+}
+
+
+li {
+    display: inline;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10;
+    padding: 20;
+    float: right;
+    font-size: 125%;
+    
+}
+
+#content {
+  margin-top: 20px;
+}
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: serif;
+  color: #4aaaa5;
+}
+
+#headshot {
+  float: left;
+  
+}
+
+#full {
+  max-width: 960px;
+  padding: 40px;
+  clear: both;
+  background: #fff;
+  border: 1px solid #dddddd;
+  line-height: 200%;
+  font-family: arial;
+  color: #777777;
+  margin: auto;
+  overflow: auto;
+}
+
+/* Need  help with sticky footer */
+.footer {
+  clear: both;
+  color: #fff;
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: #666666;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
