@@ -1,2 +1,2 @@
 # thompsonwill.github.io
-Demo of pages
+My github home page
